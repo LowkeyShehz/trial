@@ -1,0 +1,80 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Projects */
+  #projects .project {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em 0;
+  }
+  
+  /* Contact Form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-top: 1em;
+  }
+  
+  form input, form textarea, form button {
+    padding: 0.5em;
+    margin-top: 0.5em;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
